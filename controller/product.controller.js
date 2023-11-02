@@ -1,7 +1,9 @@
 const db = require('../model')
+const logger = require('../logger/loggerservice.js')
 const Products = db.products;
 
 exports.showAll = (req, res) => {
+  try{
     const title  = req.query.title;
     //var condition = title? {$regex: new RegExp(title), $options:"i"}: '';
     Products.find({})
@@ -13,6 +15,18 @@ exports.showAll = (req, res) => {
             message: err.message || "Error occured while retrieving Products"
         });
     });
+  } catch(ex){
+    logger.log("error", "This is test error " + ex);
+    res.status(500).json({
+      status: 'Error',
+      message: ex.message,
+      error: {
+        statusCode: 500,
+        message: 'Controller Error',
+      },
+    });
+  }
+    
 };
 exports.create = (req, res) =>{
     if(!req.body.title) {

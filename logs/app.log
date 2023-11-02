@@ -1,0 +1,18 @@
+2023-11-02T05:26:14.898Z info: Recieved a GET request for /
+2023-11-02T05:26:14.900Z info: This is an info message
+2023-11-02T05:34:06.380Z info: Recieved a GET request for /
+2023-11-02T05:34:06.381Z info: This is an info message
+2023-11-02T05:43:05.947Z info: Recieved a GET request for /
+2023-11-02T05:43:05.949Z info: This is an info message
+2023-11-02T05:43:12.182Z info: Recieved a GET request for /api/products
+2023-11-02T05:43:12.425Z info: Recieved a GET request for /api/products
+2023-11-02T05:43:33.278Z info: Recieved a GET request for /api/products
+2023-11-02T05:46:13.865Z info: Recieved a GET request for /api/products
+2023-11-02T05:46:13.871Z error: This is test error ReferenceError: abc is not defined
+2023-11-02T06:56:40.052Z info: Recieved a GET request for /
+2023-11-02T06:56:40.055Z info: This is an info message
+2023-11-02T06:56:40.194Z info: Recieved a GET request for /favicon.ico
+2023-11-02T07:10:53.604Z info: Recieved a GET request for /api/products
+2023-11-02T07:11:57.334Z info: Recieved a GET request for /api/products
+2023-11-02T07:11:57.336Z error: This is test error ReferenceError: abc is not defined
+2023-11-02T07:12:59.013Z info: Recieved a GET request for /api/products
